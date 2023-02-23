@@ -1,5 +1,7 @@
 *** Settings ***
-Resource        automation_resource.robot
+Resource        ../PageObjects/automation_resource.robot
+Resource        ../PageObjects/home_resource.robot
+Resource        ../PageObjects/login_resource.robot
 Test Setup      Abrir navegador
 #Test Teardown  Fechar navegador
 
