@@ -2,16 +2,14 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${URL_BASE}               http://automationexercise.com
-${BOTAO_HOME}             //a[contains(.,'Home')]
-${TITULO_PAGINA_LOGIN}    //h2[contains(.,'New User Signup!')]
-${LOGIN_NOME}             //input[contains(@type,'text')]
-${LOGIN_EMAIL}            //input[contains(@data-qa,'signup-email')]
+${BOTAO_HOME}            //a[contains(.,'Home')]
+${BOTAO_SIGNUP_LOGIN}    //a[contains(.,'Signup / Login')]
+${TITULO_PAGINA_LOGIN}   //h2[contains(.,'Login to your account')] 
 
 *** Keywords ***
 
-Clicar botao "${NOME_BOTAO}"
-    Click Element    locator=//a[contains(.,'${NOME_BOTAO}')]
+Clicar botao Signup/Login
+    Click Element    locator=${BOTAO_SIGNUP_LOGIN}
     Wait Until Element Is Visible    locator=${TITULO_PAGINA_LOGIN}
 
     

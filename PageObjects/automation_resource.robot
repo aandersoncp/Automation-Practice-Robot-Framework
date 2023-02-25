@@ -11,11 +11,13 @@ Abrir navegador
     Maximize Browser Window
 
 Fechar navegador
+    Capture Page Screenshot
     Close Browser
 
 Acessar pagina inicial
     Go To    url=${URL_BASE}
     Wait Until Element Is Visible    locator=${BOTAO_HOME}
+
 
     
 
