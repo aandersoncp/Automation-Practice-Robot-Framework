@@ -16,8 +16,8 @@ Cenario 01: Registrar usuario
     Adicionar Texto Nome "nome_teste"
     Adicionar Texto Email "nome_teste@tese.com"
     Clicar botao Signup
-    Preencher radio button title
-    Preencher senha
-    Preencher data de nascimento
-    Preencher checkbox
+    Preencher formulario
+    Clicar botao create account
+    Clicar botao continue
+    Clicar em delete
     
