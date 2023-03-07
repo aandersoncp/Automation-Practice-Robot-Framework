@@ -1,12 +1,13 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    Builtin
+Resource   .\variaveis\variaveis.robot
 
 *** Variables ***
-${LOGIN_NOME}          //input[contains(@type,'text')]
-${LOGIN_EMAIL}         //input[contains(@data-qa,'signup-email')]
-${BOTAO_SIGNUP}        //button[@type='submit'][contains(.,'Signup')]
-${TITULO_ENTER_ACCOUNT_INFORMATION}    //b[contains(.,'Enter Account Information')]
+# ${LOGIN_NOME}          //input[contains(@type,'text')]
+# ${LOGIN_EMAIL}         //input[contains(@data-qa,'signup-email')]
+# ${BOTAO_SIGNUP}        //button[@type='submit'][contains(.,'Signup')]
+# ${TITULO_ENTER_ACCOUNT_INFORMATION}    //b[contains(.,'Enter Account Information')]
 
 *** Keywords ***
 Adicionar Texto Nome "${NOME}"

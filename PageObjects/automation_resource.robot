@@ -1,9 +1,10 @@
 *** Settings ***
 Library     SeleniumLibrary
+Resource   .\variaveis\variaveis.robot
 
 *** Variables ***
-${URL_BASE}         http://automationexercise.com
-${BOTAO_HOME}        //a[contains(.,'Home')]
+# ${URL_BASE}         http://automationexercise.com
+# ${BOTAO_HOME}        //a[contains(.,'Home')]
 
 *** Keywords ***
 Abrir navegador
